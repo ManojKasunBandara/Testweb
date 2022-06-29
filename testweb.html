@@ -5,8 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test webpage</title>
+
+<style>
+    .wrapper{
+        display: grid;
+        grid-template-columns:70% 30%;
+        /* grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+        grid-gap: 1em;
+    }
+
+
+    .wrapper > div{
+        background: #eee;
+        padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+    }
+
+
+
+
+
+
+
+    .top{
+        position: relative;
+        background-color: aquamarine;
+        height: 500px;
+    }
+
+
+    .m1{
+    position: sticky;
+    top: 0px;  
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    }
+
+    .m2{
+    position: ;
+    background-color: rgb(21, 0, 255);
+    height: 100px;
+    width: 200px;
+    }
+
+    .m3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    }
+
+    .m4{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    }
+
+
+
+</style>
 </head>
 <body>
-    
+
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae accusantium, libero, magnam rerum reprehenderit, nihil dolores consequatur deleniti dicta expedita saepe dignissimos atque suscipit explicabo incidunt cum! Porro ipsam atque harum similique suscipit, enim eum earum obcaecati, cum, cupiditate cumque in consequuntur reiciendis dolorem modi inventore sint veritatis. Maiores aperiam nesciunt harum ut iste aspernatur sapiente fuga reprehenderit quos earum. Ratione, ullam, ea vitae dicta nam debitis quasi vero dolor est voluptas nobis tempora ex nihil itaque qui ad?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repellat ipsa quas possimus at soluta pariatur, ex voluptatum delectus mollitia hic? Quibusdam expedita quos accusantium illo magni aperiam eligendi sit.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae accusantium, libero, magnam rerum reprehenderit, nihil dolores consequatur deleniti dicta expedita saepe dignissimos atque suscipit explicabo incidunt cum! Porro ipsam atque harum similique suscipit, enim eum earum obcaecati, cum, cupiditate cumque in consequuntur reiciendis dolorem modi inventore sint veritatis. Maiores aperiam nesciunt harum ut iste aspernatur sapiente fuga reprehenderit quos earum. Ratione, ullam, ea vitae dicta nam debitis quasi vero dolor est voluptas nobis tempora ex nihil itaque qui ad?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repellat ipsa quas possimus at soluta pariatur, ex voluptatum delectus mollitia hic? Quibusdam expedita quos accusantium illo magni aperiam eligendi sit.
+        </div>
+
+    </div>
+
+<div class="top">
+    top
+    <div class= "m1">1</div>
+    <div class= "m2">2</div>
+    <div class= "m3">3</div>
+    <div class= "m4">4</div>  
+</div> 
+
 </body>
 </html>
