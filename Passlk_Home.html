@@ -205,9 +205,14 @@
             border-radius: 10px;
         }
 
+        /*  rgb(69, 240, 176) green
+            rgb(54, 93, 233) blue
+            rgb(150, 93, 233)
+        */
+
         .SubjectCard{
             position: relative;
-            background-color: aquamarine;
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
             border-radius: 5px;
             padding: 0px;
             width: 200px;
@@ -234,11 +239,21 @@
             width: 200px;
             position: absolute;
             bottom: 0;
-            
-            
         }
 
+        .SubjectCard a{
+            text-decoration:none;
+            color: white;
+            font-family:'Nunito', sans-serif ;
+        }
 
+        .SubjectCard a:hover{
+            box-shadow: inset;
+        }
+
+        .SubjectCard > H3:hover{
+            box-shadow: inset;
+        }
 
 
     </Style>
@@ -298,7 +313,7 @@
             <div class="SubjectCard">
                 <h2>Subject</h2>
                 <img src="" alt="">
-                <H3>Start Quiz</H3>
+                <H3> <a href="">Start Quiz</a> </H3>
             </div>
 
             <div class="SubjectCard">
